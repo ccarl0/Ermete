@@ -1,0 +1,42 @@
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
+}
+
+img.card-img-top
+{
+    height: 350px; 
+    object-fit: cover;
+}
+
+div.card-body
+{
+    height: 490px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.footer
+{
+    border-right: 1px dotted rgba(0, 0, 0, 0.278);
+}
+
+p {
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  .fa{
+    font-size:32px;
+    margin: 5px;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .footer {
+        border-right: 0px dotted rgba(0, 0, 0, 0.278);
+    }
+  }
+  

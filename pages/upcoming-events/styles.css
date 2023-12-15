@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+.card-body{
+    height: 300px;
+}
+
+img.card-img-top
+{
+    height: 300px; 
+    object-fit: cover;
+    object-position: 50% 20%;
+    border-radius: 5px;
+}
+
+.ag
+{
+    background: linear-gradient(to bottom right, #91a3b67e, #5060727e);
+    border-radius: 10px;
+}

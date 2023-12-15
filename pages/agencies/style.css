@@ -1,0 +1,36 @@
+.bg-cards
+{
+    background-color: #4f677e8e;
+}
+
+/* img{
+    padding: 10px;
+} */
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 30px 30px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+img.card-img-top
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 250px; 
+    object-fit: contain;
+}
+
+div.card-body
+{
+    height: 250px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.country
+{
+    border-right: 1px dotted rgba(0, 0, 0, 0.278);
+}

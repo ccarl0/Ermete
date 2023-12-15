@@ -1,0 +1,36 @@
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.3);
+}
+
+img.card-img-top
+{
+    height: 300px; 
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+div.card-body
+{
+    height: 570px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.country
+{
+    border-right: 1px dotted rgba(0, 0, 0, 0.278);
+}
+
+p {
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  .fa{
+    font-size:32px;
+    margin: 5px;
+  }
