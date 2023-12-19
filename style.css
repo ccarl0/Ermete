@@ -64,8 +64,6 @@ body {
   .moon {
     position: relative;
     align-items: center;
-    top: 50%;
-    left: 45%;
     width: 200px;
     height: 200px;
     background: #c7cbd0;
@@ -75,7 +73,7 @@ body {
   }
   
   .moon:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
   
   li.spinner-li {
